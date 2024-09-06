@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+  padding: 60px 0px !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px 12px;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+}
+section#shadow-host-companion {
+  display: none !important;
+}
